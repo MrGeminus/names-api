@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Names API</title>
+</head>
+
+<body>
+    <header>
+        <a href="">Github</a>
+    </header>
+    <main>
+        <form>
+            <label for="">Filter by gender</label>
+            <select id="" name="gender">
+                <option value="all">Both</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+            <label for="">Filter by country</label>
+            <select id="" name="country">
+                <option value="all">All Countries</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Romania">Romania</option>
+                <option value="Greece">Greece</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+        </form>
+        <section>
+            <h2>Male names</h2>
+            <div class="grid" data-gender="male">
+
+            </div>
+        </section>
+        <section>
+            <h2>Female names</h2>
+            <div class="grid" data-gender="female">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="">Created with ❤️ in Serbia</p>
+    </footer>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
